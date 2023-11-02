@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #efefe4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  color: #FFFFE0;
+  padding: 0;
+}
+
+.header h2 {
+  margin-left: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+  border-bottom: 1px solid #74696958;
+  align-items: center;
+}
+
+.location-image {
+  width: 31%;
+  float: left;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 4%;
+}
+
+.place-details {
+  width: 64%;
+  align-items: center;
+  float: right;
+  padding: 1%;
+}
+
+.icon-location, .icon-location > .loaction-icon {
+  margin-right: 8px;
+}
+
+.place-title {
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
