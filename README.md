@@ -23,25 +23,40 @@ This is a simple React web application that allows you to create and view travel
 
 ## Getting Started
 
-1. **Navigate to the project directory:**
+1. **To create a new React app, you can use [Vite](https://vitejs.dev/), a build tool that provides fast and efficient development. First, make sure you have Node.js installed on your system.**
+
+2. **Install Vite globally if you haven't already:**
+
+```bash
+npm install -g create-vite
+```
+------
+
+1. **Create a new Vite-based React app:**
+
+```bash
+create-vite my-travel-journal --template react
+```
+
+2. **Navigate to the project directory:**
 
 ```bash
 cd my-travel-journal
 ```
 
-2. **Install the required dependencies:**
+3. **Install the required dependencies:**
 
 ```bash
 npm install
 ```
 
-3. **Start the development server:**
+4. **Start the development server:**
 
 ```bash
 npm run dev
 ```
 
-4. **Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the app.**
+5. **Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the app.**
 
 ## Usage
 
@@ -50,4 +65,4 @@ To view the location on Google Maps, click the "View on Google Maps" link on the
 
 ## License
 
-This project is licensed under the - License. See the LICENSE file for details.
+This project is licensed under the - License. See the [License](./LICENSE) file for details.
