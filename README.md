@@ -65,4 +65,4 @@ To view the location on Google Maps, click the "View on Google Maps" link on the
 
 ## License
 
-This project is licensed under the - License. See the [License](./LICENSE) file for details.
+This project is under Unlicense license. See the [License](./LICENSE) file for details.
